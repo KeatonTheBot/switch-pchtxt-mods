@@ -1,0 +1,24 @@
+@nsobid-446DD0DC908E197CEFEA6B3548FC9FD6
+# Baten Kaitos II [0100C07018CA6002] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K Docked, 1080p Handheld
+
+@enabled
+009929D4 08408152 // mov w8, #0xa00
+009929D8 18B48052 // mov w24, #0x5a0
+00A1A86C 09008052 // mov w9, #0x0
+00A1A870 03B48052 // mov w3, #0x5a0
+00A1A87C 02408152 // mov w2, #0xa00
+00A1BB48 17F08052 // mov w23, #0x780
+00A1BB4C 16878052 // mov w22, #0x438
+00A1BC00 08408152 // mov w8, #0xa00
+00A1BC08 08B48052 // mov w8, #0x5a0
+00A2F948 01408152 // mov w1, #0xa00
+00A2F94C 02B48052 // mov w2, #0x5a0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

@@ -1,0 +1,14 @@
+@nsobid-F91868B88F60D3D59009DB3389FDE314A6A32FCD
+# Super Mario Bros. Wonder [010015100B514000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 16:10
+
+@enabled
+002B9FB4 0130261E // fmov s1, #17.0
+029B5108 CDCCCC3F // #1.6
+@stop
+
+@KeatonTheBot

@@ -1,0 +1,14 @@
+@nsobid-D4B150B29A931CD381E2A30318FC299F2B0EE36D
+# Persona 5 Royal [01005CA01580E000] v1.0.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+
+@enabled
+00F95574 0870201E // fmov s8, #2.375
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

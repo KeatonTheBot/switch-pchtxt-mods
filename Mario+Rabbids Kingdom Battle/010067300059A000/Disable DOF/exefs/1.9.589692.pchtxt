@@ -1,0 +1,14 @@
+@nsobid-3B39E0C06B8841F1BAF0EA4D54286BFE
+# Mario+Rabbids Kingdom Battle [010067300059A000] v1.9.589692
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable DOF
+
+@enabled
+00A531B0 1F2003D5
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

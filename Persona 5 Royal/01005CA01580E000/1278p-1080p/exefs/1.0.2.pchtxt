@@ -1,0 +1,21 @@
+@nsobid-D4B150B29A931CD381E2A30318FC299F2B0EE36D
+# Persona 5 Royal [01005CA01580E000] v1.0.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1278p Docked, 1080p Handheld
+
+@enabled
+010A4C70 098780D2 // mov x9, #0x438
+010A4C78 08F0C0F2 // movk x8, #0x780, lsl #32
+010A4C80 09F0C0F2 // movk x9, #0x780, lsl #32
+010A4C90 08878052 // mov w8, #0x438
+010A4CF0 082481D2 // mov x8, #0x920
+010A4CF4 C89FC0F2 // movk x8, #0x4fe, lsl #32
+010A4CFC 082481D2 // mov x8, #0x920
+010A4D00 C89FC0F2 // movk x8, #0x4fe, lsl #32
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

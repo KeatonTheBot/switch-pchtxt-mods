@@ -1,0 +1,15 @@
+@nsobid-909E904AF78AC1B8DEEFE97AB2CCDB51968F0EC7
+
+# Zelda: Link's Awakening [01006BB00C6F0000] 1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable SSAO
+
+@enabled
+016BFAC4 "PFXSSAOOff"
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

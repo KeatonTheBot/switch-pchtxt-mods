@@ -1,0 +1,17 @@
+@nsobid-3B39E0C06B8841F1BAF0EA4D54286BFE
+# Mario+Rabbids Kingdom Battle [010067300059A000] v1.9.589692
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K Docked, 1080p Handheld
+
+@enabled
+010985A0 08B48052 // mov w8, #0x5a0
+010985AC 09408152 // mov w9, #0xa00
+010985E4 0887C0D2 // mov x8, #0x43800000000
+010985E8 08F080F2 // movk x8, #0x780
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

@@ -1,0 +1,20 @@
+@nsobid-3F8DB95C54C9B11CC59AF41C443DFA46
+# Star Ocean The Second Story R [010065301A2E0000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1800p
+
+@enabled
+006E025C 08908152 // mov w8, #0xc80
+006E026C 08E18052 // mov w8, #0x708
+007665A4 09008052 // mov w9, #0x0
+007665A8 03E18052 // mov w3, #0x708
+007665B4 02908152 // mov w2, #0xc80
+0077B7B4 01908152 // mov w1, #0xc80
+0077B7B8 02E18052 // mov w2, #0x708
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

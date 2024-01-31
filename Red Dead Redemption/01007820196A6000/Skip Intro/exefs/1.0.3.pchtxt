@@ -1,0 +1,14 @@
+@nsobid-B97EF033026D1E6F66FC03B58FB738BBA2E4BD74
+# Red Dead Redemption [01007820196A6000] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Skip Intro
+
+@enabled
+0135D424 1F2003D5 // Skip Legals
+00BD86EC 1F2003D5 // Skip Logo
+@stop
+
+@KeatonTheBot

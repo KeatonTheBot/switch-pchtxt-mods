@@ -1,0 +1,17 @@
+@nsobid-5B76A43B231E0640521AC66203F7C178
+# Mario+Rabbids Sparks of Hope [0100317013770000] v1.6.2225577
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K Docked, 1080p Handheld
+
+@enabled
+002863C8 084081D2 // mov x8, #0xa00
+002863D4 08B4C0F2 // movk x8, #0x5a0, lsl #32
+0028639C 15F080D2 // mov x21, #0x780
+002863A8 1587C0F2 // movk x8, #0x438, lsl #32
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

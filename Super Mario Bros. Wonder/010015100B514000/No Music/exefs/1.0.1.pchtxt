@@ -1,0 +1,14 @@
+@nsobid-F91868B88F60D3D59009DB3389FDE314A6A32FCD
+# Super Mario Bros. Wonder [010015100B514000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// No Music
+
+@enabled
+01D7EA9C E003271E // Main Menu & Level
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

@@ -1,0 +1,15 @@
+@nsobid-BDD6DC7DA7A69290B443DB41243319D6547C3D24
+# Paper Mario - The Origami King [0100A3900C3E2000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 Aspect Ratio
+
+@enabled
+005A20EC A8AA8A52 // mov w8, #0x5555
+005A20F0 A802A872 // movk w8, #0x4015, lsl #16
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

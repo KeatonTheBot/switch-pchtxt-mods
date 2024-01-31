@@ -1,0 +1,17 @@
+@nsobid-D41357A3DA356B09FA400B90F303B56497DA075E
+# Hades [0100535012974000] v1.0.38233
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K
+
+@enabled
+002492D8 098082D2 // mov x9, #0x1400
+002492E0 0968C1F2 // movk x9, #0xb40, lsl #32
+00262D54 098082D2 // mov x9, #0xf00
+00262D58 0968C1F2 // movk x9, #0x870, lsl #32
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

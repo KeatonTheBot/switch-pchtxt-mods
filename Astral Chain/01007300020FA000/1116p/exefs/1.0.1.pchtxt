@@ -1,0 +1,17 @@
+@nsobid-4B159F0F7A360669738390EE8657B4F0
+# Astral Chain [01007300020FA000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1116p
+
+@enabled
+004328C0 08F88052 // mov w8, #0x7c0
+004328C8 888B8052 // mov w8, #0x45c
+004328E0 08F08052 // mov w8, #0x780
+004328E8 08878052 // mov w8, #0x438
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

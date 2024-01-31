@@ -1,0 +1,16 @@
+@nsobid-9515EF1F79EF3CB800BD85E5D3DE0D98F39381F3
+# Red Dead Redemption [01007820196A6000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 32:9 Aspect Ratio
+
+@enabled
+01392020 29C79152
+01392024 690CA872
+019FCF1C 28C79152
+019FCF20 680CA872
+@stop
+
+@KeatonTheBot

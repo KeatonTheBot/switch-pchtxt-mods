@@ -1,0 +1,16 @@
+@nsobid-F68A7D87ABAC6AACA5B9B0D57A0BB1301C23A735
+# Red Dead Redemption [01007820196A6000] v1.0.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// B&W Pause Menu Filter
+
+@enabled
+0132CD50 782500F0 // adrp x24, 0x71017db000 // Normal
+0132CD54 183B1791 // add x24, x24, #0x5ce // Normal
+0132CCEC 782500F0 // adrp x24, 0x71017db000 // Undead Nightmare
+0132CCF0 183B1791 // add x24, x24, #0x5ce // Undead Nightmare
+@stop
+
+@KeatonTheBot

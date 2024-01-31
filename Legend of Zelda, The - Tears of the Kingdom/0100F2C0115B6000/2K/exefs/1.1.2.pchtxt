@@ -1,0 +1,17 @@
+@nsobid-9A10ED9435C06733DA597D8094D9000AB5D3EE60
+# The Legend of Zelda: Tears of the Kingdom [0100F2C0115B6000] v1.1.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K
+
+@enabled
+00CDD390 C0035FD6 // ret
+00EA7EFC 084081D2 // mov x8, #0xa00
+00EA7F00 08B4C0F2 // movk x8, #0x5a0, LSL #32
+00BD2BFC 0BB48052 // mov w11, #0x5a0
+00BD2C00 17000014 // b 0x7100bd2c5c
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

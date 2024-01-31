@@ -1,0 +1,20 @@
+@nsobid-AE16F71E002AF8CB059A9A74C4D90F34BA984892
+
+Zelda: Link's Awakening [01006BB00C6F0000] 1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 21:9 aspect ratio, also extends off-screen culling to 21:9 from 16:9
+@enabled
+016AFBA4 00001840 // #2.375 // Aspect Ratio
+00852AD8 0970201E // fmov s9, #2.375 // Culling
+01023C64 08658052 // mov w8, #0x328 // Shadow Ver. Res
+@stop
+
+// Testing Addresses
+// 0001092C 0070201E // fmov s0, #2.375 // Aspect Ratio
+// 01023C70 0170201E // fmov s1, #2.375 // Indoor Shadow AR
+// 01023C78 0AF08052 // mov w10, #0x780 // Shadow Hor. Res
+
+// By @Jaddey and @KeatonTheBot

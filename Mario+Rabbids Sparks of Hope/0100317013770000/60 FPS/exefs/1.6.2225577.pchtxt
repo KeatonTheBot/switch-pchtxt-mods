@@ -1,0 +1,15 @@
+@nsobid-5B76A43B231E0640521AC66203F7C178
+# Mario+Rabbids Sparks of Hope [0100317013770000] v1.6.2225577
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+003E6E48 2B000014
+003E6EF4 15008052 // mov w21, #0x0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

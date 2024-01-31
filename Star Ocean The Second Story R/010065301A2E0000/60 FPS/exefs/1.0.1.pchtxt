@@ -1,0 +1,14 @@
+@nsobid-3F8DB95C54C9B11CC59AF41C443DFA46
+# Star Ocean The Second Story R [010065301A2E0000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+0076D794 21008052 // mov w1, #0x1
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

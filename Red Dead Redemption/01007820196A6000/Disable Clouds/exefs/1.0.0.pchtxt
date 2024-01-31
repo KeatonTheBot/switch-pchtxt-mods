@@ -1,0 +1,13 @@
+@nsobid-9515EF1F79EF3CB800BD85E5D3DE0D98F39381F3
+# Red Dead Redemption [01007820196A6000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable Clouds
+
+@enabled
+01ABB580 C0035FD6
+@stop
+
+@KeatonTheBot

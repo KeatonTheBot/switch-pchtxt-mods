@@ -1,0 +1,13 @@
+@nsobid-90D38D285A365D9E834001B144E1D20F6E0E285A
+# Red Dead Redemption [01007820196A6000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable Heat Wave Effect
+
+@enabled
+01A39A8C 14000014
+@stop
+
+@KeatonTheBot
