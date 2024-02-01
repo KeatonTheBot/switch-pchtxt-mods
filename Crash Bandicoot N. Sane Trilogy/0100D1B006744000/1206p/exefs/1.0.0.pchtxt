@@ -4,14 +4,14 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 1404p
+// 1206p
 
 @enabled
-009EDBC4 88AFC0D2 // mov x8, #0x57c00000000
-009EDBD0 083881F2 // movk x8, #0x9c0
+009EDBC4 C896C0D2 // mov x8, #0x4b600000000
+009EDBD0 080C81F2 // movk x8, #0x860
 0010BE8C 1F2003D5 // nop
-0010BE90 88AFC0D2 // mov x8, #0x57c00000000
-0010BE94 083881F2 // movk x8, #0x9c0
+0010BE90 C896C0D2 // mov x8, #0x4b600000000
+0010BE94 080C81F2 // movk x8, #0x860
 @stop
 
 @KeatonTheBot
