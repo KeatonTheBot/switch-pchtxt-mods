@@ -6,7 +6,7 @@
 
 // 1080p
 
-@disabled
+@enabled
 009EDBC4 0887C0D2 // mov x8, #0x43800000000
 009EDBD0 08F080F2 // movk x8, #0x780
 0010BE8C 1F2003D5 // nop

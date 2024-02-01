@@ -6,7 +6,7 @@
 
 // 1404p
 
-@disabled
+@enabled
 009EDBC4 88AFC0D2 // mov x8, #0x57c00000000
 009EDBD0 083881F2 // movk x8, #0x9c0
 0010BE8C 1F2003D5 // nop
