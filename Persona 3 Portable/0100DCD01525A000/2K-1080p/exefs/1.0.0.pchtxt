@@ -1,0 +1,21 @@
+@nsobid-663052C2C7E8C357BA6EAD36641EE2792397EB1F
+# Persona 3 Portable [0100DCD01525A000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K Docked, 1080p Handheld
+
+@enabled
+00237B40 0A878052 // mov w10, #0x438
+00237B44 0BB48052 // mov w11, #0x5a0
+00237B54 09408152 // mov w9, #0xa00
+00237B60 0AF08052 // mov w10, #0x780
+00238AC0 08408152 // mov w8, #0xa00
+00238AC4 09F08052 // mov w9, #0x780
+00238AC8 0AB48052 // mov w10, #0x5a0
+00238AD0 09878052 // mov w9, #0x438
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
