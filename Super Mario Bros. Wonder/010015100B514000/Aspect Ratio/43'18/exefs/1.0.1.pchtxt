@@ -4,7 +4,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 21.5:9
+// 43:18
 
 @enabled
 002B9FB4 01F0251E // fmov s1, #15.5
