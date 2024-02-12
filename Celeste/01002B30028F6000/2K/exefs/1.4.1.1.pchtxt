@@ -1,0 +1,17 @@
+@nsobid-9382989AF9636A1E02AEB3693094E87D1A02A898
+# Celeste [01002B30028F6000] v1.4.1.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K
+
+@enabled
+0066CB60 01408152 // mov w1, #0xa00
+0066CB6C 01B48052 // mov w1, #0x5a0
+004D19B4 00408152 // mov w0, #0xa00
+004D19C8 00B48052 // mov w0, #0x5a0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
