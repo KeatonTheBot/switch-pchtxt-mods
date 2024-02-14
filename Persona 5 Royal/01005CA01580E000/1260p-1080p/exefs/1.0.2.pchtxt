@@ -4,17 +4,17 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 1350p Docked, 1080p Handheld
+// 1260p Docked, 1080p Handheld
 
 @enabled
 010A4C70 098780D2 // mov x9, #0x438
 010A4C78 08F0C0F2 // movk x8, #0x780, lsl #32
 010A4C80 09F0C0F2 // movk x9, #0x780, lsl #32
 010A4C90 08878052 // mov w8, #0x438
-010A4CF0 082C81D2 // mov x8, #0x960
-010A4CF4 C8A8C0F2 // movk x8, #0x546, lsl #32
-010A4CFC 082C81D2 // mov x8, #0x960
-010A4D00 C8A8C0F2 // movk x8, #0x546, lsl #32
+010A4CF0 082081D2 // mov x8, #0x900
+010A4CF4 889DC0F2 // movk x8, #0x4ec, lsl #32
+010A4CFC 082081D2 // mov x8, #0x900
+010A4D00 889DC0F2 // movk x8, #0x4ec, lsl #32
 @stop
 
 @KeatonTheBot
