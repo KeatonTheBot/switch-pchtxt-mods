@@ -1,0 +1,19 @@
+@nsobid-37CE685A99F0BC0FB72132C40015F101ECB81C46
+# Mario vs. Donkey Kong [0100B99019412000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K Docked, 1080p Handheld
+
+@enabled
+003A8A34 0AB48052 // mov w10, #0x5a0
+003A8A60 0840C1F2 // movk x8, #0xa00, lsl #32
+00E73C5C 084081D2 // mov x8, #0xa00
+00E73C60 08B4C0F2 // movk x8, #0x5a0, lsl #32
+00E73C68 08F080D2 // mov x8, #0x780
+00E73C6C 0887C0F2 // movk x8, #0x438, lsl #32
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
