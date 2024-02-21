@@ -17,6 +17,7 @@
 0040F1B0 145A8052 // mov w20, #0x2d0
 0040F1B4 167E8052 // mov w22, #0x3f0
 0040F1D0 1F001C71 // cmp w0, #0x700
+009ED178 00102E1E // fmov s0, #1.00 // Mipmap Bias
 @stop
 
 @KeatonTheBot
