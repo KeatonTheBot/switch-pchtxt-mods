@@ -11,6 +11,7 @@
 010985AC 09408152 // mov w9, #0xa00
 010985E4 0887C0D2 // mov x8, #0x43800000000
 010985E8 08F080F2 // movk x8, #0x780
+026E8268 0000803F // Disable Downscaling
 @stop
 
 @KeatonTheBot
