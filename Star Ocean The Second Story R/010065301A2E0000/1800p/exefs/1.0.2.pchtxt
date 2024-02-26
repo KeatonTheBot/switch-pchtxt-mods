@@ -4,7 +4,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 1800p
+// 1800p + SSAA
 
 @enabled
 006E03CC 08908152 // mov w8, #0xc80
@@ -14,6 +14,8 @@
 00766724 02908152 // mov w2, #0xc80
 0077B924 01908152 // mov w1, #0xc80
 0077B928 02E18052 // mov w2, #0x708
+020C6200 48339352 // mov w8, #0x999a
+020C6204 28F3A772 // movk w8, #0x3f99, lsl #16 // 1800p @ 4K internal res.
 @stop
 
 @KeatonTheBot

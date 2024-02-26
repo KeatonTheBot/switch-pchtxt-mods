@@ -18,6 +18,7 @@
 00A1BC08 08B48052 // mov w8, #0x5a0
 00A2F948 01408152 // mov w1, #0xa00
 00A2F94C 02B48052 // mov w2, #0x5a0
+04EB4330 00102E1E // fmov s0, #1.00 // Disable Downscaling
 @stop
 
 @KeatonTheBot

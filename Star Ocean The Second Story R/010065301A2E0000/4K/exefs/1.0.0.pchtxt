@@ -14,6 +14,7 @@
 007660E4 02E08152 // mov w2, #0xf00
 0077B2E4 01E08152 // mov w1, #0xf00
 0077B2E8 020E8152 // mov w2, #0x870
+01BA25C8 00102E1E // fmov s0, #1.00 // Disable Downscaling
 @stop
 
 @KeatonTheBot

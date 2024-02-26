@@ -4,7 +4,7 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 2K
+// 2K + SSAA
 
 @enabled
 006DFD8C 08408152 // mov w8, #0xa00
@@ -14,6 +14,7 @@
 007660E4 02408152 // mov w2, #0xa00
 0077B2E4 01408152 // mov w1, #0xa00
 0077B2E8 02B48052 // mov w2, #0x5a0
+01BA25C8 00102F1E // fmov s0, #1.50 // 2K @ 4K internal res.
 @stop
 
 @KeatonTheBot
