@@ -11,6 +11,8 @@
 002863D4 08B4C0F2 // movk x8, #0x5a0, lsl #32
 0028639C 15F080D2 // mov x21, #0x780
 002863A8 1587C0F2 // movk x8, #0x438, lsl #32
+033664A0 08008052 // mov w8, #0x0 // Disable Downscaling
+033664A4 08F0A772 // movk w8, #0x3f80, lsl #16
 @stop
 
 @KeatonTheBot
