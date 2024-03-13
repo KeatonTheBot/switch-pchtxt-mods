@@ -1,0 +1,22 @@
+@nsobid-9EB32F76831B73F3BC610EB5F23414AD
+# Contra: Operation Galuga [0100CF401A98E000] v1.0.867143
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+010248E8 09008052 // mov w9, #0x0
+010248EC 030E8152 // mov w3, #0x870
+010248FC 02E08152 // mov w2, #0xf00
+01025A94 17E08152 // mov w23, #0xf00
+01025A98 160E8152 // mov w22, #0x870
+01025B50 08E08152 // mov w8, #0xf00
+01025B58 080E8152 // mov w8, #0x870
+0102610C 020E8152 // mov w2, #0x870
+01026114 01E08152 // mov w1, #0xf00
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
