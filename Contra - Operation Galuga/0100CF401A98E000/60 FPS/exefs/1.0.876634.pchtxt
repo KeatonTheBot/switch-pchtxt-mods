@@ -1,0 +1,14 @@
+@nsobid-0C96F996FDE48DA803E8037140864265
+# Contra: Operation Galuga [0100CF401A98E000] v1.0.876634
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+010368B8 21008052 // mov w1, #0x1
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
