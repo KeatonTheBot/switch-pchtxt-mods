@@ -14,7 +14,8 @@
 007665B4 02E08152 // mov w2, #0xf00
 0077B7B4 01E08152 // mov w1, #0xf00
 0077B7B8 020E8152 // mov w2, #0x870
-020C5918 00102E1E // fmov s0, #1.00 // Disable Downscaling
+020C5918 00102E1E // fmov s0, #1.00 // Disable Downscaling (Town/Interior/Battle)
+020C8AF0 00102E1E // fmov s0, #1.00 // Disable Downscaling (Overworld)
 @stop
 
 @KeatonTheBot
