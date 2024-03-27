@@ -1,0 +1,15 @@
+@nsobid-37531419DA7654EC3F5B586693F7F3314D2E4044
+# Red Dead Redemption [01007820196A6000] v1.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Remove Dead Eye Filter
+
+@enabled
+00FA7728 33000014
+007F3720 BCFFFF17
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

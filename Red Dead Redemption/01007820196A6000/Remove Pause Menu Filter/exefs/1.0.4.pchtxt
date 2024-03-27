@@ -1,0 +1,16 @@
+@nsobid-37531419DA7654EC3F5B586693F7F3314D2E4044
+# Red Dead Redemption [01007820196A6000] v1.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Remove Pause Menu Filter
+
+@enabled
+013362DC 1F2003D5 // Normal
+013362E0 58000014 // Hardcore
+01330360 38000014 // Undead Nightmare
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
