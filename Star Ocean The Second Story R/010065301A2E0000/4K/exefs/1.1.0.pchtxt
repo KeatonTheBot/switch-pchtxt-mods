@@ -12,6 +12,8 @@
 00766814 09008052 // mov w9, #0x0
 00766818 030E8152 // mov w3, #0x870
 00766824 02E08152 // mov w2, #0xf00
+0077B79C 160E8152 // mov w22, #0x870
+0077B7A8 01E08152 // mov w1, #0xf00
 0077BA24 01E08152 // mov w1, #0xf00
 0077BA28 020E8152 // mov w2, #0x870
 02012B88 00102E1E // fmov s0, #1.00 // Disable Downscaling (Town/Interior/Battle)
