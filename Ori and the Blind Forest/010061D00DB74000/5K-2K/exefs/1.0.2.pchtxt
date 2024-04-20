@@ -1,0 +1,24 @@
+@nsobid-9C4F2A47916B6A5478548ADC62A3A87C
+# Ori and the Blind Forest [010061D00DB74000] v1.0.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K Docked, 2K Handheld
+
+@enabled
+016C9DE4 17408152 // mov w23, #0xa00
+016C9DE8 16B48052 // mov w22, #0x5a0
+016C9E2C 08808252 // mov w8, #0x1400
+016C9E34 08688152 // mov w8, #0xb40
+016C9F18 09008052 // mov w9, #0x0
+016C9F1C 03688152 // mov w3, #0xb40
+016C9F20 02808252 // mov w2, #0x1400
+016DE510 15688152 // mov w21, #0xb40
+016DE518 01808252 // mov w1, #0x1400
+016DE768 01808252 // mov w1, #0x1400
+016DE76C 02688152 // mov w2, #0xb40
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
