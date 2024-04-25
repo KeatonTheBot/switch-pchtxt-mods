@@ -1,0 +1,14 @@
+@nsobid-B88A8D8E5516DDE98E70F55A86375DE6
+# Octopath Traveler [010057D006492000] v1.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2x SSAA
+
+@enabled
+019FABFC 0869A852 // movz w8, #0x4348, lsl #16
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

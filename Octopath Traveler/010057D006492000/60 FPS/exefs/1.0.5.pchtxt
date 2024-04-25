@@ -1,0 +1,14 @@
+@nsobid-67DACC049CEEE8585B1583336C565B43
+# Octopath Traveler [010057D006492000] v1.0.5
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+01BDEE94 E803271E // fmov s8, wzr
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
