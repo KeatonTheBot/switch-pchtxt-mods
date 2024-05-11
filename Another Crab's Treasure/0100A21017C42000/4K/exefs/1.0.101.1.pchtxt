@@ -1,0 +1,26 @@
+@nsobid-3980F76403AE4CF2996F4F69EF3B5E38
+# Another Crab's Treasure [0100A21017C42000] v1.0.101.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+004023C4 08E08152 // mov w8, #0xf00
+004023C8 180E8152 // mov w24, #0x870
+009C3214 E9031F2A // mov w9, wzr
+009C3218 030E8152 // mov w3, #0x870
+009C3224 02E08152 // mov w2, #0xf00
+009C44C8 17E08152 // mov w23, #0xf00
+009C44CC 160E8152 // mov w22, #0x870
+009C4580 08E08152 // mov w8, #0xf00
+009C4588 080E8152 // mov w8, #0x870
+009DA530 150E8152 // mov w21, #0x870
+009DA53C 01E08152 // mov w1, #0xf00
+009DA7B4 01E08152 // mov w1, #0xf00
+009DA7B8 020E8152 // mov w2, #0x870
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
