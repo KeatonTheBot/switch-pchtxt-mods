@@ -1,0 +1,17 @@
+@nsobid-733351E6BD1FCEAD472F8309ACFF11C8D165266D
+# El Shaddai: Ascension of the Metatron [010019201938A000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+007A5D58 0AE08152 // mov w10, #0xf00
+007A5D6C 090E8152 // mov w9, #0x870
+008D66B4 010E8152 // mov w1, #0x870
+008D66B8 00E08152 // mov w0, #0xf00
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
