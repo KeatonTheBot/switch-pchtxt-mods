@@ -1,0 +1,22 @@
+@nsobid-2A4DE86FD2986E1FF481D017165F9613
+# Prince of Persia: The Lost Crown [0100210019428000] v1.2.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+00FFB538 09008052 // mov w9, #0x0
+00FFB53C 030E8152 // mov w3, #0x870
+00FFB54C 02E08152 // mov w2, #0xf00
+00FFC6E4 17E08152 // mov w23, #0xf00
+00FFC6E8 160E8152 // mov w22, #0x870
+00FFC7A0 08E08152 // mov w8, #0xf00
+00FFC7A8 080E8152 // mov w8, #0x870
+00FFCD5C 020E8152 // mov w2, #0x870
+00FFCD64 01E08152 // mov w1, #0xf00
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
