@@ -1,0 +1,19 @@
+@nsobid-78F37BB55D015BE3B368EC22AF595455F1544DC1
+# Paper Mario: The Thousand-Year Door [0100ECD018EBE000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p
+
+@enabled
+0030ECBC 09878052 // mov w9, #0x438
+0030ECC0 08F08052 // mov w8, #0x780
+0030ED70 09F08052 // mov w9, #0x780
+0030ED7C 0A878052 // mov w10, #0x438
+0030EE34 09878052 // mov w9, #0x438
+0030EE38 08F08052 // mov w8, #0x780
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

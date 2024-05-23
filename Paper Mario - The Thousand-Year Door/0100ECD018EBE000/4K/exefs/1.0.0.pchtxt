@@ -1,0 +1,24 @@
+@nsobid-78F37BB55D015BE3B368EC22AF595455F1544DC1
+# Paper Mario: The Thousand-Year Door [0100ECD018EBE000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K (w/ lighting issues)
+
+@enabled
+0030A010 0806A552 // mov w8, #0x2830, lsl #16
+0030A03C 080E8152 // mov w8, #0x870
+0030A04C 09E0C1F2 // movk x9, #0xf00, lsl #32
+0030A86C 08E081D2 // mov x8, #0xf00
+0030A878 080EC1F2 // movk x8, #0x870, lsl #32
+0030ECBC 090E8152 // mov w9, #0x870
+0030ECC0 08E08152 // mov w8, #0xf00
+0030ED70 09E08152 // mov w9, #0xf00
+0030ED7C 0A0E8152 // mov w10, #0x870
+0030EE34 090E8152 // mov w9, #0x870
+0030EE38 08E08152 // mov w8, #0xf00
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
