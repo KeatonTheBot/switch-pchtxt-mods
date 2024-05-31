@@ -4,10 +4,13 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Disable SSR
+// No Music
 
 @enabled
-009C7058 1F2003D5
+000702E8 E103271E // fmov s1, wzr // Main Menu & World
+000703D0 EA03271E // fmov s10, wzr // Rogueport
+0044CD9C E003271E // fmov s0, wzr // Battle
+007EB4E4 E003271E // fmov s0, wzr // Battle Intro
 @stop
 
 @KeatonTheBot
