@@ -1,0 +1,16 @@
+@nsobid-BDD6DC7DA7A69290B443DB41243319D6547C3D24
+# Paper Mario - The Origami King [0100A3900C3E2000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// No Music
+
+@enabled
+0042980C E803271E // fmov s8, wzr // Battle
+0042CE74 EB03271E // fmov s11, wzr // Main Menu, Town, Indoors
+0042E484 E203271E // fmov s2, wzr // World
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
