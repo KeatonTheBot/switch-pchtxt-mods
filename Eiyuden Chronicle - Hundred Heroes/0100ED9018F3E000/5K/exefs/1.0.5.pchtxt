@@ -1,0 +1,26 @@
+@nsobid-A622CD4B4B1575F15DE8ADEF902E8265
+# Eiyuden Chronicle: Hundred Heroes [0100ED9018F3E000] v1.0.5
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K
+
+@enabled
+00D7CBB4 08808252 // mov w8, #0x1400
+00D7CBB8 18688152 // mov w24, #0xb40
+00E04BEC E9031F2A // mov w9, wzr
+00E04BF0 03688152 // mov w3, #0xb40
+00E04BFC 02808252 // mov w2, #0x1400
+00E05EC8 17808252 // mov w23, #0x1400
+00E05ECC 16688152 // mov w22, #0xb40
+00E05F80 08808252 // mov w8, #0x1400
+00E05F88 08688152 // mov w8, #0xb40
+00E19990 16688152 // mov w22, #0xb40
+00E1999C 01808252 // mov w1, #0x1400
+00E19C18 01808252 // mov w1, #0x1400
+00E19C1C 02688152 // mov w2, #0xb40
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
