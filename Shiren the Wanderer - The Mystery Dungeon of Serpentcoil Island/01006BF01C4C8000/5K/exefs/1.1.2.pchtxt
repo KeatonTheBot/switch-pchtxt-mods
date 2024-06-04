@@ -1,0 +1,26 @@
+@nsobid-CF0CCF2AC22F6F0B
+# Shiren the Wanderer: The Mystery Dungeon of Serpentcoil Island [01006BF01C4C8000] v1.1.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K
+
+@enabled
+010C1498 08808252 // mov w8, #0x1400
+010C14A0 08688152 // mov w8, #0xb40
+010C27FC 08808252 // mov w8, #0x1400
+010C2804 08688152 // mov w8, #0xb40
+010C282C EA031F2A // mov w10, wzr
+010C2838 03688152 // mov w3, #0xb40
+010C2840 02808252 // mov w2, #0x1400
+010E3964 02688152 // mov w2, #0xb40
+010E3970 01808252 // mov w1, #0x1400
+010E3BA0 02688152 // mov w2, #0xb40
+010E3BAC 01808252 // mov w1, #0x1400
+02950848 08102E1E // fmov s8, #1.00 // Handheld
+0295089C 08102E1E // fmov s8, #1.00 // Docked
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
