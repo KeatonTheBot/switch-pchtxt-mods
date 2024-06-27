@@ -1,0 +1,17 @@
+@nsobid-A71EC0B9FF4F54CB41A5DE4CF7472D899EDCC561
+# Luigi's Mansion 2 HD [010048701995E000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1998p (yuzu only)
+
+@enabled
+0014CE38 CE1700E3 // movw r1, #0x7ce
+0014CE3C DE3EA0E3 // mov r3, #0xde0
+006D2EB8 DE1EA0E3 // mov r1, #0xde0
+006D2EC0 CE1700E3 // movw r1, #0x7ce
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
