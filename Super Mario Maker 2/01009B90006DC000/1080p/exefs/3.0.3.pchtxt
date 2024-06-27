@@ -1,0 +1,15 @@
+@nsobid-C2DC405AC414C37C8B1C50219C7A0F0C
+# Super Mario Maker 2 [01009B90006DC000] v3.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p
+
+@enabled
+0132D678 16008052 // mov w22, #0x0
+0132D67C 16F0A772 // movk w22, #0x3f80, lsl #16
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
