@@ -7,8 +7,7 @@
 // 1080p
 
 @enabled
-0132D678 16008052 // mov w22, #0x0
-0132D67C 16F0A772 // movk w22, #0x3f80, lsl #16
+0132D66C 19000014
 @stop
 
 @KeatonTheBot
