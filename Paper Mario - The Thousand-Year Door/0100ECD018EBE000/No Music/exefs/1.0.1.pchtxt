@@ -1,0 +1,17 @@
+@nsobid-0EFFE4AF1DEC3A7966B934D4A7C3D2BF566A9C62
+# Paper Mario: The Thousand-Year Door [0100ECD018EBE000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// No Music
+
+@enabled
+000702E8 E103271E // fmov s1, wzr // Main Menu & World
+000703D0 EA03271E // fmov s10, wzr // Rogueport
+0044CFAC E003271E // fmov s0, wzr // Battle
+007EBED4 E003271E // fmov s0, wzr // Battle Intro
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
