@@ -1,0 +1,14 @@
+@nsobid-67C9CA1428222752F951021464A7B3597EB98FEC
+# Metroid Prime Remastered [010012101468C000] v1.0.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable Dynamic Resolution
+
+@enabled
+00AFF5D4 C0035FD6
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
