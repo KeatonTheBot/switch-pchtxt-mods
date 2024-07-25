@@ -4,13 +4,13 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// 1872p
+// 1800p
 
 @enabled
-0014CE38 501700E3 // movw r1, #0x750
-0014CE3C 0D3CA0E3 // mov r3, #0xd00
-006D2EB8 0D1CA0E3 // mov r1, #0xd00
-006D2EC0 501700E3 // movw r1, #0x750
+0014CE38 081700E3 // movw r1, #0x708
+0014CE3C 323DA0E3 // mov r3, #0xc80
+006D2EB8 321DA0E3 // mov r1, #0xc80
+006D2EC0 081700E3 // movw r1, #0x708
 @stop
 
 @KeatonTheBot
