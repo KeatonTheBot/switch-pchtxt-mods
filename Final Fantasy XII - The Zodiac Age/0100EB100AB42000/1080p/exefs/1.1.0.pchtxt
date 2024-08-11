@@ -1,0 +1,15 @@
+@nsobid-C2932C4D1C84ED7DEF7CEB1042B78951
+# Final Fantasy XII: The Zodiac Age [0100EB100AB42000] v1.1.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1080p (w/ FXAA disabled)
+
+@enabled
+00031054 097D80D2
+00DA491C 1F2003D5
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
