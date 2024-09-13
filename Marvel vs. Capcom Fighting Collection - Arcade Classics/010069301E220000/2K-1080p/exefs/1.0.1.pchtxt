@@ -1,0 +1,21 @@
+@nsobid-12F5C6CE3C66DB3E72F74EA07C812A1D89E3B37C
+# Marvel vs. Capcom Fighting Collection: Arcade Classics [010069301E220000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K Docked, 1080p Handheld
+
+@enabled
+0001FB30 084081D2 // mov x8, #0xa00
+0001FB34 09F080D2 // mov x9, #0x780
+0001FB3C 08B4C0F2 // movk x8, #0x5a0, lsl #32
+0001FB40 0987C0F2 // movk x9, #0x438, lsl #32
+00489334 084081D2 // mov x8, #0xa00
+00489338 08B4C0F2 // movk x8, #0x5a0, lsl #32
+00489340 08F08052 // mov w8, #0x780
+00489348 08878052 // mov w8, #0x438
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
