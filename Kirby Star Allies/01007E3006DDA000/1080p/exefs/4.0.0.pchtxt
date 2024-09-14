@@ -14,6 +14,8 @@
 0006D60C 06878052 // mov w6, #0x438
 001CBB10 01F08052 // mov w1, #0x780
 001CBB14 02878052 // mov w2, #0x438
+001CBB38 01A08052 // mov w1, #0x500
+001CBB3C 025A8052 // mov w2, #0x2d0
 @stop
 
 @KeatonTheBot
