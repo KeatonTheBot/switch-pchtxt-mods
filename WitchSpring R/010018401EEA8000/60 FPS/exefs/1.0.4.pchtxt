@@ -1,0 +1,14 @@
+@nsobid-E37D26FB254E801FA6B03ED9A69369EB
+# WitchSpring R [010018401EEA8000] v1.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+0096B884 01008052 // mov w1, #0x0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
