@@ -1,0 +1,17 @@
+@nsobid-A3780FD4DDD6238916F7F0D243BC74E50D1D9E11
+# Unicorn Overlord [010069401ADB8000] v1.0.3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 1224p
+
+@enabled
+005CA57C 181081D2 // mov x24, #0x880
+005CA588 1899C0F2 // movk x24, #0x4c8, lsl #32
+005CFBF4 08A1A852 // mov w8, #0x45080000
+005CFC04 2893A852 // mov w8, #0x44990000
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
