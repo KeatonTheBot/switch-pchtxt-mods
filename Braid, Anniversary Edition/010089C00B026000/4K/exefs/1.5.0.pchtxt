@@ -1,0 +1,17 @@
+@nsobid-CD85B6C4896C899F749DD63908679EE90118316C
+# Braid, Anniversary Edition [010089C00B026000] v1.5.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4K
+
+@enabled
+000F42B4 08E081D2 // mov x8, #0xf00
+000F42C0 080EC1F2 // movk x8, #0x870, lsl #32
+0022C6A8 000F0000
+0022C6C0 70080000
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
