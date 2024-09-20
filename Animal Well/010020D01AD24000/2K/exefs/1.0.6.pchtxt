@@ -1,0 +1,19 @@
+@nsobid-7AA692F7DF3CE91F04DEDD95FDB91C5B1206102C
+# Animal Well [010020D01AD24000] v1.0.6
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 2K
+
+@enabled
+0000E5EC 094081D2 // mov x9, #0xa00
+0000E5F8 09B4C0F2 // movk x9, #0x5a0, lsl #32
+00011208 08B48052 // mov w8, #0x5a0
+00011214 0840C1F2 // movk x8, #0xa00, lsl #32
+000132E4 0840C1F2 // movk x8, #0xa00, lsl #32
+000132EC 08B48052 // mov w8, #0x5a0
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
