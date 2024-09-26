@@ -1,0 +1,14 @@
+@nsobid-09A15C8259828A41B91B036B12F0687973A4627A
+# The Legend of Zelda - Echoes of Widsom [01008CF01BAAC000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 60 FPS
+
+@enabled
+0032D2D8 35008052 // mov w21, #0x1
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

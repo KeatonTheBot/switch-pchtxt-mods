@@ -1,0 +1,14 @@
+@nsobid-09A15C8259828A41B91B036B12F0687973A4627A
+# The Legend of Zelda - Echoes of Widsom [01008CF01BAAC000] v1.0.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable DOF
+
+@enabled
+033032CC 00000000
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
