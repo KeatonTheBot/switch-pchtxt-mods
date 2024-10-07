@@ -9,8 +9,8 @@
 @enabled
 0062592C 09008052 // No Swordfighter Music
 02107400 0090261E // Energy Meter Always Full
-0209DE04 0090271E // ""
-0330728B 1F2003D5 // Hide Energy Meter
+0209DE04 0090261E // ""
+02623370 08008052 // Hide Energy Meter
 @stop
 
 @KeatonTheBot
