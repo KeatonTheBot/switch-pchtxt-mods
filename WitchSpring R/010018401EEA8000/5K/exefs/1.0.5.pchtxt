@@ -1,0 +1,26 @@
+@nsobid-0A6D6FD636EC9D2BD16A1157A049DC6F
+# WitchSpring R [010018401EEA8000] v1.0.5
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K
+
+@enabled
+00394694 08808252 // mov w8, #0x1400
+00394698 18688152 // mov w24, #0xb40
+009555A4 EA031F2A // mov w10, wzr
+009555A8 03688152 // mov w3, #0xb40
+009555B4 02808252 // mov w2, #0x1400
+00956858 17808252 // mov w23, #0x1400
+0095685C 16688152 // mov w22, #0xb40
+00956910 08808252 // mov w8, #0x1400
+00956918 08688152 // mov w8, #0xb40
+0096C8C0 17688152 // mov w23, #0xb40
+0096C8CC 01808252 // mov w1, #0x1400
+0096CB44 01808252 // mov w1, #0x1400
+0096CB48 02688152 // mov w2, #0xb40
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
