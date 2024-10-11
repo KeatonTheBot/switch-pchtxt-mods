@@ -4,10 +4,11 @@
 @flag print_values
 @flag offset_shift 0x100
 
-// Disable Bloom
+// Reduced Bloom
 
 @enabled
-00414188 E4031F2A // mov w4, wzr
+004141A4 E3031F2A // mov w3, wzr
+004141C0 E4031F2A // mov w4, wzr
 @stop
 
 @KeatonTheBot
