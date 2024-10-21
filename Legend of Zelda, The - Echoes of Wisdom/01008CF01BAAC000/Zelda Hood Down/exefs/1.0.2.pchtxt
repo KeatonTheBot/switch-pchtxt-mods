@@ -1,0 +1,19 @@
+@nsobid-D1ED438C8BDAF4368B30DAEC53ED8E9BACD31A34
+# The Legend of Zelda: Echoes of Wisdom [01008CF01BAAC000] v1.0.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Zelda Hood Down
+
+@enabled
+02117EE4 E203142A // mov w2, w20
+02117EFC E203142A // mov w2, w20
+02117F18 E203142A // mov w2, w20
+02117F34 E203142A // mov w2, w20
+02117F54 E203152A // mov w2, w21
+02117F70 E203152A // mov w2, w21
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot

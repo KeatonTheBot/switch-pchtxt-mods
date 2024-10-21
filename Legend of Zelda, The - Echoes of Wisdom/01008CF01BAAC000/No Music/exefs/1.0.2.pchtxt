@@ -1,0 +1,21 @@
+@nsobid-D1ED438C8BDAF4368B30DAEC53ED8E9BACD31A34
+# The Legend of Zelda: Echoes of Wisdom [01008CF01BAAC000] v1.0.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// No Music
+
+@enabled
+00331350 C0035FD6 // Background Music
+00616C00 C0035FD6
+00628AB0 C0035FD6
+006367A0 C0035FD6
+015CFB70 C0035FD6
+023553D0 C0035FD6
+023555B0 C0035FD6
+0062615C 09008052 // Swordfighter Form
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
