@@ -1,0 +1,26 @@
+@nsobid-71A1800E1093191B7501CE9C85F4FA0A
+# Nine Sols [0100D810170D0000] v1.1
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K
+
+@enabled
+00BE1D2C 08808252 // mov w8, #0x1400
+00BE1D30 18688152 // mov w24, #0xb40
+00C73478 17808252 // mov w23, #0x1400
+00C7347C 16688152 // mov w22, #0xb40
+00C73530 08808252 // mov w8, #0x1400
+00C73538 08688152 // mov w8, #0xb40
+00C735C0 EA031F2A // mov w10, wzr
+00C735C8 03688152 // mov w3, #0xb40
+00C735D0 02808252 // mov w2, #0x1400
+00C8893C 17688152 // mov w23, #0xb40
+00C88948 01808252 // mov w1, #0x1400
+00C88BB0 01808252 // mov w1, #0x1400
+00C88BB4 02688152 // mov w2, #0xb40
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
