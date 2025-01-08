@@ -1,0 +1,16 @@
+@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+# Xenoblade Chronicles - Definitive Edition [010065301A2E0000] v1.1.2
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Remove 'Press Any Button'
+
+@enabled
+00304790 C0035FD6 // startFadeInPressAnyKey
+003047D0 C0035FD6 // startIdlePressAnyKey
+00304810 C0035FD6 // startFadePushPressAnyKey
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
