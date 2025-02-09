@@ -1,0 +1,26 @@
+@nsobid-14DE9DBB5EA493516772CE829164B2C1
+# Neva [01001D301B83A000] v1.2.0
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 5K
+
+@enabled
+010C8B2C 08808252 // mov w8, #0x1400
+010C8B40 08688152 // mov w8, #0xb40
+011B3978 E9031F2A // mov w9, wzr
+011B397C 03688152 // mov w3, #0xb40
+011B398C 02808252 // mov w2, #0x1400
+011B555C 08808252 // mov w8, #0x1400
+011B5564 08688152 // mov w8, #0xb40
+011D57D8 02688152 // mov w2, #0xb40
+011D57E4 01808252 // mov w1, #0x1400
+011D5A14 02688152 // mov w2, #0xb40
+011D5A20 01808252 // mov w1, #0x1400
+02253F4C 02688152 // mov w2, #0xb40
+02253F50 01808252 // mov w1, #0x1400
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
