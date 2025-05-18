@@ -1,0 +1,14 @@
+@nsobid-2452C49BC26EC15904C507A34B6F16AE
+# Mario Kart 8 Deluxe [0100152000022000] v3.0.4
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Disable HDR
+
+@enabled
+00EF7606 00000000
+@stop
+
+@KeatonTheBot
+https://linktr.ee/keatonthebot
